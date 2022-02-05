@@ -72,7 +72,7 @@ public class UnitTest
     public void Given0KelvinOutputNegative273Celsius()
     {
         Conversion conversion = new Conversion();
-        double expected = -273;
+        double expected = -274;
         double actual = conversion.Convert(Conversion.ConversionMode.Kelvin_to_Celsius, 0);
         Assert.Equal(expected, actual);
     }
